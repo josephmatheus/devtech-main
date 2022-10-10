@@ -21,9 +21,6 @@ Este também é o meu primeiro projeto utilizando SASS/SCSS.
 ---
 ## Autor
 
-- [GitHub](https://www.github.com/josephmatheus)
-- [Linkedin](https://www.linkedin.com.br/in/josephmatheus)
-
 <a href="https://www.github.com/josephmatheus">
     <img src="https://avatars.githubusercontent.com/u/89085971?v=4" alt="Profile picture" width="100px" style="border-radius: 5%;">
     <p style="font-size: 16px;">Joseph Matheus</p>
