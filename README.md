@@ -7,6 +7,8 @@ Este também é o meu primeiro projeto utilizando SASS/SCSS.
 <br><br>
 Você pode visualizar o projeto [aqui](https://josephmatheus.github.io/devtech-main). 🚀
 
+🛠 Responsividade ainda em andamento...
+
 ---
 ## Screenshot
 
