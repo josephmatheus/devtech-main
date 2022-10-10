@@ -1,0 +1,244 @@
+@import "reset.scss", "responsive.scss", "variables.scss";
+
+.header {
+  background-color: $marine;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+
+  .navbar {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+        font-size: 2.4rem;
+        margin-right: 20px;
+
+        a {
+          color: $white;
+        }
+        :hover {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  background-color: $marine;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 55px 0 120px;
+
+  .hero-content {
+    color: $white;
+    width: 440px;
+    max-width: 50%;
+
+    h2 {
+      font-size: 4.2rem;
+      line-height: 63px;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 24px;
+      margin-bottom: 45px;
+    }
+
+    .quote-btn {
+      width: 219px;
+    }
+  }
+
+  .hero-image {
+    max-width: 50%;
+
+    img {
+      width: 330px;
+      max-width: 100%;
+    }
+  }
+}
+
+.infos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 95px 0 125px;
+
+  .info {
+    font-size: 2.4rem;
+    text-align: center;
+    color: $gray;
+    font-weight: 500;
+
+    span {
+      display: block;
+      font-size: 4.2rem;
+      font-weight: 700;
+      line-height: 63px;
+      color: $black;
+    }
+  }
+}
+
+.services {
+  width: 100%;
+  background-color: $white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 93px 70px;
+
+  .services-content {
+    width: 495px;
+    max-width: 100%;
+    h2 {
+      font-size: 4.2rem;
+      line-height: 63px;
+      margin-bottom: 23px;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 24px;
+      margin-bottom: 38px;
+      width: 450px;
+    }
+
+    .quote-btn {
+      width: 244px;
+    }
+  }
+
+  .services-cards {
+    display: flex;
+    width: 550px;
+    max-width: 100%;
+
+    .card {
+      width: 272px;
+      height: 305px;
+      margin-right: 10px;
+      padding: 30px 17px 60px 25px;
+      background: $gradient-gray;
+      border-radius: 16px;
+
+      h3 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      .card-icon {
+        width: 80px;
+        height: 80px;
+        background-color: $light-gray2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        font-size: 4rem;
+        margin-bottom: 20px;
+      }
+    }
+
+    .blue {
+      background: $gradient-blue;
+      color: $white;
+
+      .card-icon {
+        background-color: rgb(253, 253, 253, 0.35);
+      }
+    }
+  }
+}
+
+.about {
+  text-align: center;
+  width: 900px;
+  max-width: 100%;
+  margin: 70px auto;
+
+  h3 {
+    font-size: 4.2rem;
+    letter-spacing: 15px;
+    margin-bottom: 23px;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 13px;
+    font-weight: 500;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  padding: 70px 0 20px;
+
+  h3 {
+    font-size: 3.3rem;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .form {
+    background-color: $white-ice;
+    padding: 50px 75px;
+    width: 560px;
+    margin-top: 60px;
+    border-radius: 8px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        height: 42px;
+        margin-bottom: 26px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding: 9px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba($color: #000000, $alpha: 0.2);
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 87px;
+    text-align: center;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    a {
+      font-size: 1.4rem;
+      color: $blue;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
