@@ -4,6 +4,10 @@
 Desafio realizado através do [DevMentor](https://www.devmentor.com.br).
 O desafio era construir esta página da empresa fictícia DevTech e fazê-la parecer o mais próximo possível do design.
 Este também é o meu primeiro projeto utilizando SASS/SCSS.
+<br><br>
+Você pode visualizar o projeto [aqui](https://josephmatheus.github.io/devtech-main). 🚀
+
+🛠 Responsividade ainda em andamento...
 
 ---
 ## Screenshot
@@ -20,9 +24,6 @@ Este também é o meu primeiro projeto utilizando SASS/SCSS.
 
 ---
 ## Autor
-
-- [GitHub](https://www.github.com/josephmatheus)
-- [Linkedin](https://www.linkedin.com.br/in/josephmatheus)
 
 <a href="https://www.github.com/josephmatheus">
     <img src="https://avatars.githubusercontent.com/u/89085971?v=4" alt="Profile picture" width="100px" style="border-radius: 5%;">
