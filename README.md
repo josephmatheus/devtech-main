@@ -2,12 +2,11 @@
 ## Landing Page 
 
 Desafio realizado através do [DevMentor](https://www.devmentor.com.br).
-O desafio era construir esta página da empresa fictícia DevTech e fazê-la parecer o mais próximo possível do design.
+O desafio era construir esta página da empresa fictícia DevTech e fazê-la parecer o mais próximo possível do design, que inclui a responsividade.
 Este também é o meu primeiro projeto utilizando SASS/SCSS.
 <br><br>
 Você pode visualizar o projeto [aqui](https://josephmatheus.github.io/devtech-main). 🚀
 
-🛠 Responsividade ainda em andamento...
 
 ---
 ## Screenshot
