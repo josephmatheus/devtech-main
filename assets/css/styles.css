@@ -27,59 +27,6 @@ a {
   cursor: pointer;
 }
 
-@media (max-width: 794px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-  .header .navbar {
-    margin-left: 50px;
-  }
-  .hero {
-    flex-direction: column;
-    gap: 50px;
-    width: 100%;
-  }
-  .services {
-    flex-direction: column;
-    gap: 50px;
-  }
-  .services .quote-btn {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-@media (max-width: 560px) {
-  .hero-content h2 {
-    font-size: 3rem !important;
-    line-height: normal !important;
-  }
-  .hero-content p {
-    display: none;
-  }
-  .infos {
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-  }
-  .services {
-    display: block;
-    margin: auto;
-    font-size: 2.8rem;
-  }
-  .services .services-cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .footer h3,
-.footer p {
-    max-width: 50%;
-    text-align: center;
-  }
-}
 .header {
   background-color: #151F35;
   display: flex;
@@ -296,6 +243,67 @@ a {
 }
 .footer .copyright a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 794px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .header .navbar {
+    margin-left: 50px;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+  }
+  .services {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .services .quote-btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 560px) {
+  .hero .hero-content h2 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+  .hero .hero-content p {
+    display: none;
+  }
+  .infos {
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services {
+    display: block;
+    margin: auto;
+    font-size: 2.8rem;
+  }
+  .services .services-content {
+    margin-bottom: 50px;
+  }
+  .services .services-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .services .services-cards .card {
+    margin: 0;
+  }
+  .footer h3,
+.footer p {
+    max-width: 50%;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

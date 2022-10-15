@@ -28,17 +28,18 @@
 }
 
 @media (max-width: 560px) {
-  .hero-content {
-    h2 {
-      font-size: 3rem !important;
-      line-height: normal !important;
-    }
+  .hero {
+    .hero-content {
+      h2 {
+        font-size: 3rem;
+        line-height: normal;
+      }
 
-    p {
-      display: none;
+      p {
+        display: none;
+      }
     }
   }
-
   .infos {
     flex-direction: column;
     gap: 50px;
@@ -51,9 +52,18 @@
     margin: auto;
     font-size: 2.8rem;
 
+    .services-content {
+      margin-bottom: 50px;
+    }
+
     .services-cards {
       flex-direction: column;
+      align-items: center;
       gap: 20px;
+
+      .card {
+        margin: 0;
+      }
     }
   }
 

@@ -1,4 +1,4 @@
-@import "variables.scss", "reset.scss", "responsive.scss";
+@import "variables.scss", "reset.scss";
 
 .header {
   background-color: $marine;
@@ -252,3 +252,5 @@
     }
   }
 }
+
+@import "responsive.scss";
